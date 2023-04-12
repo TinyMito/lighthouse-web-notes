@@ -1,13 +1,13 @@
 # Working with Array
 
 ## Classic
-### for
+#### for
 ```javascript
 for (let i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
 ```
-### while
+#### while
 ```javascript
 let i = 0;
 while (i < array.length) {
@@ -16,8 +16,7 @@ while (i < array.length) {
 }
 ```
 
-## ES6
-### for...of
+#### for...of
 ```javascript
 for (const element of array) {
   console.log(element);
@@ -25,7 +24,7 @@ for (const element of array) {
 ```
 
 ## Functions
-### .map()
+#### .map()
 ```javascript
 array.map(function(element, index, array) {
   console.log(element);
@@ -33,7 +32,7 @@ array.map(function(element, index, array) {
 });
 ```
 
-### .filter()
+#### .filter()
 ```javascript
 array.filter(function(element, index, array) {
   console.log(element);
@@ -42,7 +41,7 @@ array.filter(function(element, index, array) {
 
 ```
 
-### .reduce()
+#### .reduce()
 ```javascript
 array.reduce(function(accumulator, currentValue, index, array) {
   console.log(currentValue);
