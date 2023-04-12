@@ -1,6 +1,6 @@
 # Working with Array
 
-## Classic
+## Loop
 #### for
 ```javascript
 for (let i = 0; i < array.length; i++) {
