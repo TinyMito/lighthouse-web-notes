@@ -11,3 +11,5 @@ const myFunction = function (a, b) {
 ```javascript
 const myFunction = (a, b) => a + b;
 ```
+
+#### Test
