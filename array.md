@@ -1,5 +1,7 @@
 # Table of Content
-- [Structure](#structure)
+- [for](#for)
+- [while](#while)
+- [for...of](#for...of)
 
 # Array
 #### Structure
