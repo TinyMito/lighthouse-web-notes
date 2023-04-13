@@ -12,4 +12,4 @@ const myFunction = function (a, b) {
 const myFunction = (a, b) => a + b;
 ```
 
-#### Test
+####
