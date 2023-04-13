@@ -18,18 +18,37 @@ while (i < array.length) {
 
 #### for...of
 ```javascript
+const array = [1, 2, 3]
 for (const element of array) {
   console.log(element);
 }
+
+// Output
+1
+2
+3
 ```
 
 ## Functions
 #### .map()
+Map will create a new array with new value added by function for every elements.
 ```javascript
-array.map(function(element, index, array) {
-  console.log(element);
-  return newValue;
-});
+// Example 1
+const a = [1, 4, 9];
+const b = a.map((c) => Math.sqrt(c));
+console.log(b)
+
+// Output
+[1, 2, 3]
+```
+```javascript
+// Example 2
+const a = [1, 2, 3];
+const b = a.map((c) => c * 2);
+console.log(b)
+
+// Output
+[2 ,4 ,6]
 ```
 
 #### .filter()
