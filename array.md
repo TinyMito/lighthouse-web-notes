@@ -1,8 +1,3 @@
-# Table of Content
-- [for](#for)
-- [while](#while)
-- [for...of](#for...of)
-
 # Array
 #### Structure
 This is an Array.
