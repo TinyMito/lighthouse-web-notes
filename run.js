@@ -1,3 +1,8 @@
-let a = [1, 2, 3, 4]
-let b = a.indexOf(3)
-console.log(b) // Output 2
+let a = {
+  key1: 'property',
+  key2: {
+    subKey1: 'subProperty',
+    subKey2: ['One', 'Two', 'Three']
+  }
+}
+console.log(a.key2.subKey2[1]) // Two

@@ -1,40 +1,118 @@
 # Working with Object
+#### Structure
+This is an object literal.
+```javascript
+{
+  key: 'property'
+}
+```
+The only time for key to use ' ' is when there is a space.
+```javascript
+{
+  'key space': 'property'
+}
+```
+
+#### Access the Object
+```javascript
+let a = {
+  key: 'property',
+}
+console.log(a.key) // property
+```
+```javascript
+let a = {
+  key1: 'property',
+  key2: {
+    subKey1: 'subProperty'
+  }
+}
+console.log(a.key2.subKey1) // subProperty
+```
+```javascript
+let a = {
+  key1: 'property',
+  key2: {
+    subKey1: 'subProperty',
+    subKey2: ['One', 'Two', 'Three']
+  }
+}
+console.log(a.key2.subKey2[1]) // Two
+```
 
 ## Loop
 #### for...in
+List the key from the object.
 ```javascript
-for (const key in object) {
-  if (object.hasOwnProperty(key)) {
-    console.log(`Key: ${key}, Value: ${object[key]}`);
-  }
+let a = {
+  key1: 'One',
+  key2: 'Two',
+  key3: 3
 }
+
+for (const key in a) {
+  console.log(key);
+}
+// key1
+// key2
+// key3
 ```
 
 #### for...of
+List of the property with `Object.values()`
 ```javascript
-for (const value of Object.values(object)) {
-  console.log(`Value: ${value}`);
+let a = {
+  key1: 'One',
+  key2: 'Two',
+  key3: 3
 }
+
+for (const key of Object.values(a)) {
+  console.log(key);
+}
+// Output property (of)
+// One
+// Two
+// 3
+
+// Output index (in) + Object.values/keys/entries
+// 0
+// 1
+// 2
 ```
 
-## Functions
+## Built-In Functions
 #### .keys()
+Output the `key`.
 ```javascript
-Object.keys(object).forEach(function(key) {
-  console.log(`Key: ${key}, Value: ${object[key]}`);
-});
+let a = {
+  key1: 'One',
+  key2: 'Two',
+  key3: 3
+}
+console.log(Object.keys(a)) // [ 'key1', 'key2', 'key3' ]
 ```
 
 #### .values()
+Output the `property`.
 ```javascript
-Object.values(object).forEach(function(value) {
-  console.log(`Value: ${value}`);
-});
+let a = {
+  key1: 'One',
+  key2: 'Two',
+  key3: 3
+}
+console.log(Object.values(a)) // [ 'One', 'Two', 3 ]
 ```
 
 #### .entries()
+Converts each `key: property` into array.
 ```javascript
-Object.entries(object).forEach(function([key, value]) {
-  console.log(`Key: ${key}, Value: ${value}`);
-});
+let a = {
+  key1: 'One',
+  key2: 'Two',
+  key3: 3
+}
+let b = Object.entries(a);
+console.log(b);
+// [ [ 'key1', 'One' ], [ 'key2', 'Two' ], [ 'key3', 3 ] ]
 ```

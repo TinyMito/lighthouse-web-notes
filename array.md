@@ -1,12 +1,21 @@
 # Working with Array
-### Structure
-This is an Array
+#### Structure
+This is an Array.
 ```javascript
 [1, 2, 3]
 ```
 Each of these are elements.
 ```javascript
 1, 2, 3
+```
+
+#### Access an Array
+```javascript
+myArray[index]
+```
+#### Total element of an Array
+```javascript
+myArray.length
 ```
 
 ## Loop
@@ -32,7 +41,6 @@ const array = [1, 2, 3]
 for (const element of array) {
   console.log(element);
 }
-// Output
 //1
 //2
 //3
@@ -47,7 +55,7 @@ const a = [1, 4, 9];
 const b = a.filter(function(c) {
   return c === 1;
 });
-console.log(b) // Output [1]
+console.log(b) // [1]
 ```
 
 #### .push()
@@ -56,7 +64,7 @@ To add element to the end.
 // Example 
 let a = [1, 2, 3]
 a.push(4)
-console.log(a) // Output [1, 2, 3, 4]
+console.log(a) // [1, 2, 3, 4]
 ```
 
 #### .slice()
@@ -65,7 +73,7 @@ Copy or extract a portion of the array.
 // Example 
 let a = [1, 2, 3]
 let b = a.slice(1,2) // (index, index)
-console.log(b) // Output 2
+console.log(b) // 2
 ```
 
 #### .splice()
@@ -74,7 +82,7 @@ Find and replace / add new element(s).
 // Example 
 let a = [1, 2, 3]
 a.splice(1,1,'Alpha','Beta','Cool')
-console.log(a) // Output [ 1, 'Alpha', 'Beta', 'Cool', 3 ]
+console.log(a) // [ 1, 'Alpha', 'Beta', 'Cool', 3 ]
 ```
 
 #### .indexOf()
@@ -83,7 +91,7 @@ Find the element index position.
 // Example 
 let a = [1, 2, 3, 4]
 let b = a.indexOf(3)
-console.log(b) // Output 2
+console.log(b) // 2
 ```
 
 ## Uncommon Functions
@@ -95,7 +103,7 @@ const a = [1, 2, 3];
 const b = a.map(function(c) {
   return c * 2
 });
-console.log(b) // Output [2 ,4 ,6]
+console.log(b) // [2 ,4 ,6]
 ```
 
 #### .reduce()
@@ -106,7 +114,7 @@ const a = [1, 2, 3]
 const b = a.reduce(function(c, d) {
   return c + d;
 });
-console.log(b) // Output 6
+console.log(b) // 6
 ```
 
 #### .pop()
@@ -126,7 +134,7 @@ To remove the first element.
 const a = [1, 2, 3]
 const b = a.shift(); // Can use to select last element
 console.log(a) // [2, 3]
-console.log(b) // Output 1
+console.log(b) // 1
 ```
 
 #### .forEach()
@@ -137,10 +145,9 @@ let a = [1, 2, 3]
 a.forEach(function(b) {
   console.log(b);
 })
-// Output
-//1
-//2
-//3
+// 1
+// 2
+// 3
 ```
 
 #### .sort()
@@ -149,7 +156,7 @@ Sort by numeric or alpha
 // Example 
 let a = [3, 1, 2]
 a.sort()
-console.log(a) // Output [1, 2, 3]
+console.log(a) // [1, 2, 3]
 ```
 
 #### .reverse()
@@ -158,7 +165,7 @@ Reverse the order (not sort)
 // Example 
 let a = [3, 1, 2]
 a.reverse()
-console.log(a) // Output [2, 1, 3]
+console.log(a) // [2, 1, 3]
 ```
 
 #### .join()
@@ -167,5 +174,5 @@ Convert array into string with comma. Need to be in new variable.
 // Example 
 let a = [1, 2, 3, 4, 'Cool']
 let b = a.join()
-console.log(b) // Output 1,2,3,4,Cool
+console.log(b) // 1,2,3,4,Cool
 ```
