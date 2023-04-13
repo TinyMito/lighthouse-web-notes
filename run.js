@@ -1,8 +1,3 @@
-let a = {
-  key1: 'property',
-  key2: {
-    subKey1: 'subProperty',
-    subKey2: ['One', 'Two', 'Three']
-  }
-}
-console.log(a.key2.subKey2[1]) // Two
+let a = [3, 1, 2]
+a.sort((a, b) => b - a)
+console.log(a) // [3, 2, 1]

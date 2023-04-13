@@ -1,4 +1,4 @@
-# Working with Object
+# Object
 #### Structure
 This is an object literal.
 ```javascript
@@ -38,6 +38,12 @@ let a = {
   }
 }
 console.log(a.key2.subKey2[1]) // Two
+```
+
+#### Total key/property of an Object
+```javascript
+Object.keys(a).length
+Object.values(a).length
 ```
 
 ## Loop

@@ -1,4 +1,7 @@
-# Working with Array
+# Table of Content
+- [Structure](#structure)
+
+# Array
 #### Structure
 This is an Array.
 ```javascript
@@ -151,12 +154,19 @@ a.forEach(function(b) {
 ```
 
 #### .sort()
-Sort by numeric or alpha
+Sort ascending by numeric or alpha
 ```javascript
 // Example 
 let a = [3, 1, 2]
 a.sort()
 console.log(a) // [1, 2, 3]
+```
+Sort descending by numeric or alpha
+```javascript
+// Example 
+let a = [3, 1, 2]
+a.sort((a, b) => b - a)
+console.log(a) // [3, 2, 1]
 ```
 
 #### .reverse()
