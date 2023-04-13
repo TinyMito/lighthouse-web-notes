@@ -1,3 +1,3 @@
-const a = [1, 4, 9];
-const b = a.filter(c => c === 1);
-console.log(b) // Output [1]
+const a = [1, 2, 3]
+const b = a.reduce((c, d) => c + d);
+console.log(b)

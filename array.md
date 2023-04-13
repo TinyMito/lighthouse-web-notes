@@ -48,7 +48,7 @@ const b = a.map((c) => c * 2);
 console.log(b) // Output [2 ,4 ,6]
 ```
 ```javascript
-// Example 2
+// Example 2 with ES6 Shorthand
 const a = [1, 4, 9];
 const b = a.map((c) => Math.sqrt(c));
 console.log(b) // Output [1, 2, 3]
@@ -67,7 +67,7 @@ console.log(b) // Output [1]
 
 ```
 ```javascript
-// Example
+// Example with ES6 Shorthand
 const a = [1, 4, 9];
 const b = a.filter(c => c === 1);
 console.log(b) // Output [1]
@@ -75,10 +75,18 @@ console.log(b) // Output [1]
 ```
 
 #### .reduce()
+Reduce is to combine all value in the array into single value. Reduce requires two parameters to work.
 ```javascript
-array.reduce(function(accumulator, currentValue, index, array) {
-  console.log(currentValue);
-  return newAccumulatorValue;
-}, initialValue);
-
+// Example (Classic)
+const a = [1, 2, 3]
+const b = a.reduce(function(c, d) {
+  return c + d;
+});
+console.log(b) // Output 6
+```
+```javascript
+// Example with ES6 Shorthand
+const a = [1, 2, 3]
+const b = a.reduce((c, d) => c + d);
+console.log(b) // Output 6
 ```
