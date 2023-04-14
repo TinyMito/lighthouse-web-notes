@@ -15,6 +15,12 @@ setTimeout(function() {
 See more [here](function.md#delays)
 
 ### Asynchronous Functions
+How asynchronous functions might be used include:
+
+- Making a network API request
+- Connecting to a chat server
+- Anything that takes time and where we want users to know that the code is still running, like showing a basic loading animation
+
 See more [here](asynchronous.md)
 
 ## Quiz Notes

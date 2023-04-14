@@ -1,6 +1,4 @@
 # Function
-
-## Function
 ### Classic
 ```javascript
 const myFunction = function (a, b) {
@@ -26,12 +24,19 @@ x.toString(var)    // Convert to string
 #### Delays
 ```javascript
 setTimeout(function() {},1000)    // Set delay timer
-setInterval(function() {},30)   // Set a timer runs on interval
-clearInterval() // Stop the interval timer
+setInterval(function() {},30)     // Set a timer runs on interval
+clearInterval()                   // Stop the interval timer
 ```
 
 #### File System
 ```javascript
 require()
-readFile('file.txt',callback)
+fs.readFile('path','option',callback)     //for reading the contents of a file asynchronously
+fs.writeFile()    //for writing data to a file asynchronously
+fs.existsSync()   //for checking if a file or directory exists
+fs.mkdir()        //for creating a new directory
+fs.readdir()      //for reading the contents of a directory
+fs.stat()         //for getting information about a file or directory
+fs.rename()       //for renaming a file or directory
+fs.unlink()       //for deleting a file
 ```

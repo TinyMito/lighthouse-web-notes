@@ -2,6 +2,8 @@
 ## Mocha & Chai
 When it comes to unit testing in Javascript, there are a number of tools that make it easy to understand and implement! In this reading, we will go over how we can use the `mocha` and `chai` packages to write automated tests for Javascript.
 
+See [here](unitTesting.md) for setting up `mocha` & `chai` testing.
+
 ### BDD
 *BDD* or *Behavior Driven Development* is a process that emerged from test-driven development in 2006. The topic of BDD covers the entire life cycle of the app development process, from planning the project to writing the code.
 

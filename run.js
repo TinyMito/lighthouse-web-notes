@@ -1,17 +1,10 @@
-const fs = require('fs')
+const mean = [1, 2, 3];
+let sum = 0;
 
-const wait = setInterval(() => {
-  process.stdout.write(`.`);
-}, 30);
+for (const digit of mean) {
+  sum += digit;
+}
 
-const done = (error, data) => {
-  if (error) {
-    console.log(error); // If the file cannot read.
-    return;
-  }
+const average = sum / mean.length;
 
-  clearInterval(wait);
-  console.log('Data: ', data.slice(0,50));
-};
-
-fs.readFile('sample.txt','utf-8', done);
+console.log(average);
