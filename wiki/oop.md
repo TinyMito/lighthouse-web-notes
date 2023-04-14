@@ -142,5 +142,5 @@ class Blueprint {
 const box1 = new Blueprint();
 box1.price;      // instead of getPrice() - retrieve the data
 box1.size = 'm'; // instead of setSize(size) - set value
-copy1.addItem('Cat')
+box1.addItem('Cat')
 ```
