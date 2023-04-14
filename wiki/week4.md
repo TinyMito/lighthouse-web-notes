@@ -36,3 +36,8 @@ Two main reasons to use getters and setters:
 - Computing a value on the fly instead of simply pulling it out of a property
 
 See more [here](oop.md#getters--setters)...
+
+## Quiz Notes
+
+##### When should you use the super keyword?
+> Use super when overriding methods in order to execute the superclass's version of the method
