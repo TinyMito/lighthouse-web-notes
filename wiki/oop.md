@@ -63,6 +63,31 @@ let copy1 = new Blueprint('key1Data', 'key2Data');
 ```
 
 #### Inheritance
+##### Example 1
+Another example how `super.item()` access the superclass.
+```javascript
+class Blueprint {
+  constructor(a) {
+    this.key = a;
+  }
+  item() { // 3
+    return `the key is ${this.key}`; // 4
+  }
+}
+
+class box extends Blueprint {
+  item() {
+    return `In the box, ${super.item()}.`; // 2
+  }
+}
+
+const box1 = new box(`Cat`); // 1
+
+console.log(box1.item()) // In the box, the key is Cat.
+```
+
+##### Example 2
+Additional there is a `super()` in subclass's constructor to add or overwrite the superclass's constructor entire.
 ```javascript
 class Blueprint {
   constructor() {
@@ -78,7 +103,7 @@ class printA extends Blueprint { // It includes from Blueprint objects
 
 class printB extends Blueprint {
   constructor() { // Has a constructor!
-    super(); // Call the constructor of the parent class first
+    super(); // Within the constructor to add or overwrite the superclass
     this.key3 = ['propertyB'];
   }
 }
@@ -89,5 +114,5 @@ copy1.addProperty(); // Call the method (trigger)
 console.log(copy1) // printA { key: [ 'property' ], key3: [ 'propertyA' ] }
 
 let copy2 = new printB();
-console.log(copy2) // printB { key: [ 'property' ], key3: [ 'propertyB' ] }
+console.log(copy2); // printB { key: [ 'property' ], key3: [ 'propertyB' ]
 ```

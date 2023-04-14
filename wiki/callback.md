@@ -8,7 +8,7 @@
 ```javascript
 const myFirst = function(a, b) {
   console.log(a)
-  b();
+  b(); // Callback 'mySecond'
 }
 
 const mySecond = function() {

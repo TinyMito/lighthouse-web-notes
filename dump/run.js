@@ -1,10 +1,18 @@
-const mean = [1, 2, 3];
-let sum = 0;
-
-for (const digit of mean) {
-  sum += digit;
+class Blueprint {
+  constructor(a) {
+    this.key = a;
+  }
+  item() {
+    return `the key is ${this.key}`;
+  }
 }
 
-const average = sum / mean.length;
+class box extends Blueprint { // It includes from Blueprint objects
+  item() {
+    return `In the box, ${super.item()}.`;
+  }
+}
 
-console.log(average);
+const box1 = new box(`Cat`);
+
+console.log(box1.item()) // 

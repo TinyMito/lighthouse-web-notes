@@ -21,7 +21,7 @@ x.toFixed(2)    // Decimal add 2 decimals
 x.toString(var)    // Convert to string
 ```
 
-#### Delays
+#### Timers
 ```javascript
 setTimeout(function() {},1000)    // Set delay timer
 setInterval(function() {},30)     // Set a timer runs on interval
