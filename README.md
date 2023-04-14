@@ -5,10 +5,13 @@
 This repository contains all of the notes taken by [Kevin](https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
 
 ## Table of Content
-| Week   | Content |
-| :------ | :------- |
-| Week 0 | [Condition](condition.md) |
-| [Week 1](week1.md) | [String](string.md)<br>[Function](function.md) |
-| [Week 2](week2.md) | [Array](array.md)<br>[Object](object.md) |
-| [Week 3](week3.md) |  |
-| [Week 4](week4.md) |  |
+| Module   | Week   | Content |
+| :------- | :----- | :------ |
+| Prep     | Week 0 | [Condition](condition.md) |
+| Module 1 | [Week 1](week1.md) | [String](string.md)<br>[Function](function.md) |
+| Module 1 | [Week 2](week2.md) | [Array](array.md)<br>[Object](object.md) |
+| Module 1 | [Week 3](week3.md) |  |
+| Module 1 | [Week 4](week4.md) |  |
+| Module 2 | [Week 5](week5.md) |  |
+| Module 3 | [Week 6](week6.md) |  |
+| Module 3 | [Week 7](week7.md) |  |
