@@ -1,6 +1,6 @@
 # Condition
 
-#### if...else
+### if...else
 Check condition
 ```javascript
 if (a === b) {
@@ -28,7 +28,7 @@ if (!a) {
 }
 ```
 
-#### ES6 Shorthand
+### ES6 Shorthand
 ```javascript
 let result = a === b ? 'do true stuff' : 'do false stuff';
 ```

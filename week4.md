@@ -1,5 +1,5 @@
 # Week 4 Notes
-#### Section
+### Section
 
 ```javascript
 // Code here

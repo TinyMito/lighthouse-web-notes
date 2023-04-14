@@ -1,18 +1,18 @@
 # Function
 
 ## Function
-#### Classic
+### Classic
 ```javascript
 const myFunction = function (a, b) {
   return a + b;
 }
 ```
-#### ES6 Shorthand
+### ES6 Shorthand
 ```javascript
 const myFunction = (a, b) => a + b;
 ```
 
-#### Built-In Functions
+### Built-In Functions
 ```javascript
 Math.random(x)  // Random Number 0 to 1 with decimal
 Math.floor(x)   // Round number to nearest integer

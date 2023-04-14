@@ -1,5 +1,5 @@
 # Object
-#### Structure
+### Structure
 This is an object literal.
 ```javascript
 {
@@ -13,7 +13,7 @@ The only time for key to use ' ' is when there is a space.
 }
 ```
 
-#### Access the Object
+### Access the Object
 ```javascript
 let a = {
   key: 'property',
@@ -43,14 +43,14 @@ console.log(a.key2.subKey2[1]) // Two
 console.log(a['key2']['subKey2'][1]) // Two
 ```
 
-#### Total key/property of an Object
+### Total key/property of an Object
 ```javascript
 Object.keys(a).length
 Object.values(a).length
 ```
 
 ## Loop / Iteration
-#### for...in
+### for...in
 List the key from the object.
 ```javascript
 let a = {
@@ -67,7 +67,7 @@ for (const key in a) {
 // key3
 ```
 
-#### for...of
+### for...of
 List of the property with `Object.values()`
 ```javascript
 let a = {
@@ -91,7 +91,7 @@ for (const key of Object.values(a)) {
 ```
 
 ## Built-In Functions
-#### .keys()
+### .keys()
 Output the `key`.
 ```javascript
 let a = {
@@ -102,7 +102,7 @@ let a = {
 console.log(Object.keys(a)) // [ 'key1', 'key2', 'key3' ]
 ```
 
-#### .values()
+### .values()
 Output the `property`.
 ```javascript
 let a = {
@@ -113,7 +113,7 @@ let a = {
 console.log(Object.values(a)) // [ 'One', 'Two', 3 ]
 ```
 
-#### .entries()
+### .entries()
 Converts each `key: property` into array.
 ```javascript
 let a = {

@@ -1,5 +1,5 @@
 # Week 3 Notes
-#### Section
+### Section
 
 ```javascript
 // Code here
