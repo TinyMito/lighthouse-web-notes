@@ -17,8 +17,18 @@ npm install mocha@9.2.2 chai --save-dev
   "test": "./node_modules/mocha/bin/mocha"
 },
 ```
+> Alternative
+> ```javascript
+> "scripts": {
+>   "test": "mocha"
+> },
+> ```
 
 4. To run the test
 ```javascript
 npm test
 ```
+> Alternative
+> ```javascript
+> npm test test/test_palindromes.js
+> ```

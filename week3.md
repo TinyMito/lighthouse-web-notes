@@ -1,5 +1,5 @@
 # Week 3 Notes
-### Mocha & Chai
+## Mocha & Chai
 When it comes to unit testing in Javascript, there are a number of tools that make it easy to understand and implement! In this reading, we will go over how we can use the `mocha` and `chai` packages to write automated tests for Javascript.
 
 ### BDD
@@ -18,3 +18,14 @@ Automated testing is the practice of writing code to programmatically test the a
 
 ### Happy Path Testing
 What is a "happy path" test? "Happy path" tests are very useful, because they catch the most critical bugs, but are definitely not sufficient for building reliable and robust applications.
+
+## Object Oriented Javascript
+**Object Orientation**, commonly abbreviated "OO", is probably the biggest concept in software development philosophy of the last thirty years. Some of the most popular languages today like Ruby, Java, and C# have been designed mainly for **Object Oriented Programming**, or "OOP". But what is Object Orientation?
+
+- OO is a software development paradigm
+- OO is a popular way to solve code organization, re-use and modularity
+- OO is very important to learn due to its popularity
+- JavaScript is not strictly OO in the way that Java or Ruby are
+- Functional Programming is an alternative paradigm, and one that JavaScript also encourages
+
+Please see [example](opp.md) of the OOP.

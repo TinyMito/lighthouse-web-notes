@@ -1,11 +1,7 @@
-const myFirst = function(a, b) {
-  // Code stuff here
-  console.log(a)
-  b();
+const object = {
+  key1: 'property1',
+  callKey: function() {
+    console.log(`Calling this key1: ${this.key1}`);
+  }
 }
-
-const mySecond = function() {
-  console.log('Hi back to you!');
-}
-
-myFirst('Hello World', mySecond);
+object.callKey();
