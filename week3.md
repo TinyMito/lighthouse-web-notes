@@ -1,11 +1,20 @@
 # Week 3 Notes
 ### Mocha & Chai
-This is used for testing codes.
+When it comes to unit testing in Javascript, there are a number of tools that make it easy to understand and implement! In this reading, we will go over how we can use the `mocha` and `chai` packages to write automated tests for Javascript.
 
-## Quiz Notes
+### BDD
+*BDD* or *Behavior Driven Development* is a process that emerged from test-driven development in 2006. The topic of BDD covers the entire life cycle of the app development process, from planning the project to writing the code.
 
-##### How are Arrow Functions () => {} different than traditional function expressions?
-> Arrow Functions do not declare their own scope.
+### Automated Testing
+Automated testing is the practice of writing code to programmatically test the actual code we want to write.
 
-##### Which statement about recursion is true?
-> - Every recursive function must stop calling itself at some point using a base case, otherwise it will just continue to call itself forever, like an infinite loop.
+### Types of Testing
+- Unit Testing
+> Unit testing is the practice of testing small pieces of code, typically individual functions, alone and isolated. If your test uses some external resource, like the network or a database, it’s not a unit test. 
+- Intergration Testing
+> As the name suggests, in integration testing the idea is to test how parts of the system work together – the integration of the parts. Integration tests are similar to unit tests, but there’s one big difference: while unit tests are isolated from other components, integration tests are not. For example, a unit test for database access code would not talk to a real database, but an integration test would.
+- Functional Testing (E2E)
+> Functional testing is defined as the testing of complete functionality of some application. In practice with web apps, this means using some tool to automate a browser, which is then used to click around on the pages to test the application.
+
+### Happy Path Testing
+What is a "happy path" test? "Happy path" tests are very useful, because they catch the most critical bugs, but are definitely not sufficient for building reliable and robust applications.

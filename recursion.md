@@ -1,7 +1,7 @@
 # Recursion
 ### Alternative to traditional loops.
 
-Traditional Loop
+Traditional Loop.
 ```javascript
 let number = 0;
 while (number <= 12) {

@@ -1,0 +1,24 @@
+# Unit Testing
+### Setup with Mocha and Chai
+
+1. We initial the current directory.
+```javascript
+npm init
+```
+
+2. Install Mocha & Chai
+```javascript
+npm install mocha@9.2.2 chai --save-dev
+```
+
+3. Edit the `package.json` file and add the mocha line.
+```javascript
+"scripts": {
+  "test": "./node_modules/mocha/bin/mocha"
+},
+```
+
+4. To run the test
+```javascript
+npm test
+```
