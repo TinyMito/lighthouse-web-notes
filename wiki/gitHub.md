@@ -33,6 +33,11 @@ git remote add origin <git_ssh_url>
 ```
 
 ## How-To
+### Check GitHub status
+```
+git status
+```
+
 ### Clone
 ```
 git clone <git_ssh_url> <folder_name>
@@ -51,11 +56,13 @@ git push origin main
 ```
 
 ### Remove
+By single file or folder
 ```
 git rm <folder_file>
 ```
 
-### Check GitHub status
+### Remove files & folders marked as --deleted
+This is useful for clean up local deleted files also on repo.
 ```
-git status
+git ls-files --deleted -z | xargs -0 git rm
 ```
