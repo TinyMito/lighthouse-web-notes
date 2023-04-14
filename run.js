@@ -1,9 +1,11 @@
-let a = {
-  key1: 'property',
-  key2: {
-    subKey1: 'subProperty',
-    subKey2: ['One', 'Two', 'Three']
-  }
+const myFirst = function(a, b) {
+  // Code stuff here
+  console.log(a)
+  b();
 }
-console.log(a.key2.subKey2[1]) // Two
-console.log(a['key2']['subKey2'][1]) // Two)
+
+const mySecond = function() {
+  console.log('Hi back to you!');
+}
+
+myFirst('Hello World', mySecond);
