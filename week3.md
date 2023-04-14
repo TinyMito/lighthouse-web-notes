@@ -28,4 +28,4 @@ What is a "happy path" test? "Happy path" tests are very useful, because they ca
 - JavaScript is not strictly OO in the way that Java or Ruby are
 - Functional Programming is an alternative paradigm, and one that JavaScript also encourages
 
-Please see [example](../opp.md) of the OOP.
+Please see [example](../../opp.md) of the OOP.
