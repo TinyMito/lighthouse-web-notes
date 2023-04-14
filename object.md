@@ -38,6 +38,9 @@ let a = {
   }
 }
 console.log(a.key2.subKey2[1]) // Two
+
+// If the key has space or special character, you will to use brackets
+console.log(a['key2']['subKey2'][1]) // Two
 ```
 
 #### Total key/property of an Object
@@ -46,7 +49,7 @@ Object.keys(a).length
 Object.values(a).length
 ```
 
-## Loop
+## Loop / Iteration
 #### for...in
 List the key from the object.
 ```javascript
