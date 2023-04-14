@@ -22,8 +22,9 @@ let copy1 = new blueprint();
 let copy2 = new blueprint();
 ```
 
-### Methods and Properties
-#### Example Blueprint Class
+## Methods and Properties
+### Example Blueprint Class
+Class will reduce the needs of duplicating the same code.
 ```javascript
 class Blueprint {
   constructor() {
@@ -44,26 +45,21 @@ console.log(copy1);             // Blueprint { key: [ 'property', 'property2' ] 
 console.log(copy1.key);         // [ 'property', 'property2' ]
 ```
 
-#### Class DRY Code
+### Class DRY Code
+Class is undefined in the beginning (without hard coded values).
 ```javascript
 class Blueprint {
   constructor(key1, key2) {
-    this.key = ['property'];
-    this.key1 = key1;
+    this.key = key1;
     this.key2 = key2;
-  }
-
-  addProperty(data) {
-    this.key.push(data);
   }
 }
 
 let copy1 = new Blueprint('key1Data', 'key2Data');    
-// Create a copy of the Blueprint with predefined data.
 ```
 
-#### Inheritance
-##### Example 1
+## Inheritance
+### Example 1
 Another example how `super.item()` access the superclass.
 ```javascript
 class Blueprint {
@@ -86,7 +82,7 @@ const box1 = new box(`Cat`); // 1
 console.log(box1.item()) // In the box, the key is Cat.
 ```
 
-##### Example 2
+### Example 2
 Additional there is a `super()` in subclass's constructor to add or overwrite the superclass's constructor entire.
 ```javascript
 class Blueprint {
