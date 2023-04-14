@@ -112,3 +112,35 @@ console.log(copy1) // printA { key: [ 'property' ], key3: [ 'propertyA' ] }
 let copy2 = new printB();
 console.log(copy2); // printB { key: [ 'property' ], key3: [ 'propertyB' ]
 ```
+
+## Getters & Setters
+Using `get` and `set` add a logic layer, which allows to validate or compute the data.
+```javascript
+class Blueprint {
+
+  constructor() {
+    this.item = [];
+  }
+
+  addItem(item) {
+    this.item.push(item);
+  }
+
+  get price() {
+    const basePrice = 10;
+    const itemPrice = 2;
+    return basePrice + this.item.length * itemPrice;
+  }
+
+  set size(size) {
+    if (size === 's' || size === 'm' || size === 'l') {
+      this._size = size;
+    }
+  }
+}
+
+const box1 = new Blueprint();
+box1.price;      // instead of getPrice() - retrieve the data
+box1.size = 'm'; // instead of setSize(size) - set value
+copy1.addItem('Cat')
+```
