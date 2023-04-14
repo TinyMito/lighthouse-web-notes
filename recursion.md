@@ -1,12 +1,22 @@
-# String
-### String Concatenation
+# Recursion
+### Alternative to traditional loops.
+
+Traditional Loop
 ```javascript
-const name = 'Alice';
-console.log('Hello, ' + name + '!'); // logs: Hello, Alice!
+let number = 0;
+while (number <= 12) {
+  console.log(number);
+  number += 2;
+}
 ```
- 
-### Template literals (aka template strings)
+
+Recursion calling back to the its' function until the condition is **falsey**.
 ```javascript
-const name = 'Alice';
-console.log(`Hello, ${name}!`); // logs: Hello, Alice!
+function countEvenToTwelve(number) {
+  if (number <= 12) {
+    console.log(number);
+    countEvenToTwelve(number+2);
+  }
+}
+countEvenToTwelve(0);
 ```
