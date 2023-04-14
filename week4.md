@@ -1,9 +1,21 @@
 # Week 4 Notes
-### Section
+### Asynchronous Concepts
+JavaScript engine code runs line by line and some code can end up blocking the process for the next function to run. The solution is to code in a way for it to multitask.
 
+JavaScript has a few parts that work together to facilitate multitasking: the `Call Stack`, the `Web APIs`, the `Callback Queue`, and then the `Event Loop`.
+
+### Order of Execution
+
+To set a timer for the function to execute in later timeline.
 ```javascript
-// Code here
+setTimeout(function() {
+  // Code here
+}, 1000);
 ```
+See more [here](function.md#delays)
+
+### Asynchronous Functions
+See more [here](asynchronous.md)
 
 ## Quiz Notes
 

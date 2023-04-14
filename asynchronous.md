@@ -1,3 +1,7 @@
+# Asynchronous
+### Example
+The script will wait `.` until the file is readable.
+```javascript
 const fs = require('fs')
 
 const wait = setInterval(() => {
@@ -15,3 +19,4 @@ const done = (error, data) => {
 };
 
 fs.readFile('sample.txt','utf-8', done);
+```

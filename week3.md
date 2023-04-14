@@ -31,10 +31,10 @@ What is a "happy path" test? "Happy path" tests are very useful, because they ca
 Please see [example](oop.md) of the OOP.
 
 ### Classes & Instances
-In OOP, *classes* are blueprints (templates) that we use to create instances of objects. See [example](oop.md).
+In OOP, *classes* are blueprints (templates) that we use to create instances of objects. See [example](oop.md#class).
 
 ![Class Object](class_object.png)
 
 ### Inheritance
 Reduce the need of duplicated codes.
-See [example](oop.md).
+See [example](oop.md#inheritance).

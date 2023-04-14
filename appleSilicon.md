@@ -37,7 +37,7 @@ Install Node
 nvm install 15
 ```
 
-### RBenv & Ruby
+### Install RBenv & Ruby
 ```
 rbenv install 3.1.1
 ```
@@ -60,7 +60,7 @@ gem install bundler:1.16.1
 ```
 
 ## Additional Setup for Python on Apple Silicon
-Due to the macOS has now built-in native `Python3` calling but a lot of older script still call by `python`.
+Due to the macOS has now built-in native `python3` calling but a lot of older script still call by `python`.
 
 ```
 brew install pyenv
