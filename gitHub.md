@@ -32,6 +32,7 @@ git init
 git remote add origin <git_ssh_url>
 ```
 
+## How-To
 ### Clone
 ```
 git clone <git_ssh_url> <folder_name>
