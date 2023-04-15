@@ -1,12 +1,11 @@
 # Kevin's Notes
 
 ## Summary 
-
 This repository contains all of the notes taken by [Kevin](wiki/https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
 
 ## Table of Content
-| Module   | Week   | References |
-| :------- | :----- | :------ |
+| Module | Week | References |
+| :--- | :--- | :--- |
 | Prep     | Week 0 | [Apple Silicon M1 Setup](wiki/appleSilicon.md)<br>[GitHub Setup & How-To](wiki/gitHub.md)<br>[Conditional](wiki/conditional.md) |
 | Module 1 | [Week 1](wiki/week1.md) | [String](wiki/string.md)<br>[Function](wiki/function.md) |
 | Module 1 | [Week 2](wiki/week2.md) | [Array](wiki/array.md)<br>[Object](wiki/object.md)<br>[Callback](wiki/callback.md) |
@@ -15,3 +14,12 @@ This repository contains all of the notes taken by [Kevin](wiki/https://github.c
 | Module 2 | [Week 5](wiki/week5.md) |  |
 | Module 3 | [Week 6](wiki/week6.md) |  |
 | Module 3 | [Week 7](wiki/week7.md) |  |
+
+## Snippet Codes
+| Challenge   | Snippet  |
+| :---        | :---     |
+| Find the Mean in an Array | [Snippet](wiki/snippet.md#finding-the-mean) |
+| Find the Mean in an Object | [Snippet](wiki/snippet.md#finding-the-mean) |
+| Compare Arrays with Nested Array | ... |
+| Compare Objects with Nested Objects | ... |
+| Compare Objects with Nested Mixed | ... |

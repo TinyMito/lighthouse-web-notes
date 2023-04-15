@@ -32,3 +32,20 @@ if (!a) {
 ```javascript
 let result = a === b ? 'do true stuff' : 'do false stuff';
 ```
+
+## Built-In Function
+`Array.isArray()` check if this is an array.
+
+
+## Built-In Operator
+`typeof variable === 'object'`
+
+- `undefined`: when the operand is undefined
+- `boolean`: when the operand is a boolean value (`true` or `false`)
+- `number`: when the operand is a number
+- `bigint`: when the operand is a BigInt
+- `string`: when the operand is a string
+- `symbol`: when the operand is a symbol
+- `function`: when the operand is a function
+- `object`: when the operand is an object (excluding null)
+- `null`: when the operand is null
