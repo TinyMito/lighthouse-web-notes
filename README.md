@@ -4,7 +4,7 @@
 This repository contains all of the notes taken by [Kevin](wiki/https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
 
 ## Table of Content
-| Module | Week | References |
+| Module | Week | Wiki |
 | :--- | :--- | :--- |
 | Prep     | Week 0 | [Apple Silicon M1 Setup](wiki/appleSilicon.md)<br>[GitHub Setup & How-To](wiki/gitHub.md)<br>[Conditional](wiki/conditional.md) |
 | Module 1 | [Week 1](wiki/week1.md) | [String](wiki/string.md)<br>[Function](wiki/function.md) |
@@ -23,3 +23,6 @@ This repository contains all of the notes taken by [Kevin](wiki/https://github.c
 | Compare Arrays with Nested Array | [Snippet](wiki/recursion.md#recursion-with-arrays) |
 | Compare Objects with Nested Objects | [Snippet](wiki/recursion.md#recursion-with-objects) |
 | Compare Objects with Nested Mixed | ... |
+
+## Notes to check with Mentors
+- Recursive in for loop.
