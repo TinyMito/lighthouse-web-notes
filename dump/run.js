@@ -1,12 +1,12 @@
-const mean = { 1: 3, 2: 5, 3:5};
-let sum = 0;
-let count = 0;
-
-for (const key in mean) {
-  sum += mean[key];
-  count++;
+const myFn = function() {
+  console.log("I am function.");
 }
 
-const average = (sum / count);
+myFn.someAttribute = 42;
+console.log(myFn.someAttribute);
 
-console.log(average);
+function runner(f) {
+  f();
+}
+
+runner(myFn);

@@ -1,4 +1,11 @@
 # Recursion
+**Recursion** is a tool you can use as an alternative to traditional iteration using for and while loops.
+
+- Every recursive function must have a base case and a recursive case.
+- Each recursive call should break down the current problem into a smaller, simpler one.
+- The recursive calls must eventually reach the smallest version of the problem, the base case.
+- The base case is when the problem can be solved without further recursion.
+
 ### Alternative to traditional loops.
 
 Traditional Loop.
