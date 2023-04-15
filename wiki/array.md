@@ -160,9 +160,17 @@ console.log(a) // [1, 2, 3]
 ```
 Sort descending by numeric or alpha
 ```javascript
-// Example 
+// Example 1 ES6
 let a = [3, 1, 2]
 a.sort((a, b) => b - a)
+console.log(a) // [3, 2, 1]
+```
+```javascript
+// Example 2
+let a = [3, 1, 2]
+a.sort(function(a, b) {
+  return b - a;
+})
 console.log(a) // [3, 2, 1]
 ```
 
