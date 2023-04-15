@@ -6,6 +6,7 @@ npm login
 ```
 
 ### Update README.md
+Make sure to update `@username/lotide` and `Documentation` function list.
 ```markdown
 # Lotide
 
