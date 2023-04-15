@@ -26,8 +26,7 @@ npm install mocha@9.2.2 chai --save-dev
 
 4. Import `chai` code at the top
 ```javascript
-const chai = require('chai');
-const assert = chai.assert;
+const assert = require('chai').assert;
 ```
 
 5. To run the test
