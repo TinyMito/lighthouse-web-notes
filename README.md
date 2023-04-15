@@ -18,8 +18,8 @@ This repository contains all of the notes taken by [Kevin](wiki/https://github.c
 ## Snippet Codes
 | Challenge   | Snippet  |
 | :---        | :---     |
-| Find the Mean in an Array | [Snippet](wiki/snippet.md#finding-the-mean) |
-| Find the Mean in an Object | [Snippet](wiki/snippet.md#finding-the-mean) |
-| Compare Arrays with Nested Array | ... |
-| Compare Objects with Nested Objects | ... |
+| Find the Mean in an Array | [Snippet](wiki/snippet.md#finding-the-mean-in-an-array) |
+| Find the Mean in an Object | [Snippet](wiki/snippet.md#finding-the-mean-in-an-object) |
+| Compare Arrays with Nested Array | [Snippet](wiki/recursion.md#recursion-with-arrays) |
+| Compare Objects with Nested Objects | [Snippet](wiki/recursion.md#recursion-with-objects) |
 | Compare Objects with Nested Mixed | ... |

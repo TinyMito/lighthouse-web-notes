@@ -1,18 +1,12 @@
-class Blueprint {
-  constructor(a) {
-    this.key = a;
-  }
-  item() {
-    return `the key is ${this.key}`;
-  }
+const mean = { 1: 3, 2: 5, 3:5};
+let sum = 0;
+let count = 0;
+
+for (const key in mean) {
+  sum += mean[key];
+  count++;
 }
 
-class box extends Blueprint { // It includes from Blueprint objects
-  item() {
-    return `In the box, ${super.item()}.`;
-  }
-}
+const average = (sum / count);
 
-const box1 = new box(`Cat`);
-
-console.log(box1.item()) // 
+console.log(average);
