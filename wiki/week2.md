@@ -18,13 +18,13 @@ This means two important things:
 > - Functions can do everything that other objects can do (like having properties assigned to them)
 
 ```javascript
-const myFunction = function() {
+const myFunction = function() { // (4)
   // Code stuff here
 }
-function runFunction(f) {
-  f();
+function runFunction(f) { // (2)
+  f(); // (3)
 }
-runFunction(myFunction);
+runFunction(myFunction); // (1)
 ```
 
 ### Higher-Order Functions
