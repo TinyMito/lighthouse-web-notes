@@ -7,7 +7,7 @@ This repository contains all of the notes taken by [Kevin](wiki/https://github.c
 | Module | Week | Wiki |
 | :--- | :--- | :--- |
 | Prep     | Week 0 | [Apple Silicon M1 Setup](wiki/appleSilicon.md)<br>[GitHub Setup & How-To](wiki/gitHub.md)<br>[Conditional](wiki/conditional.md) |
-| Module 1 | [Week 1](wiki/week1.md) | [String](wiki/string.md)<br>[Function](wiki/function.md) |
+| Module 1 | [Week 1](wiki/week1.md) | [Pseudocode]<br>[String](wiki/string.md)<br>[Function](wiki/function.md) |
 | Module 1 | [Week 2](wiki/week2.md) | [Array](wiki/array.md)<br>[Object](wiki/object.md)<br>[Callback](wiki/callback.md) |
 | Module 1 | [Week 3](wiki/week3.md) | [Recursion](wiki/recursion.md)<br>[Mocha & Chai Setup](wiki/unitTesting.md)<br>[Mocha & Chai Guide](wiki/mochaChai.md)<br>[Object Oriented JS Overview](wiki/oop.md) |
 | Module 1 | [Week 4](wiki/week4.md) | [Asynchronous](wiki/asynchronous.md)<br>[Timer Functions](wiki/function.md#delays)<br>[Object Oriented JS Inheritance](wiki/oop.md#inheritance)<br>[Object Oriented JS Getters & Setters](wiki/oop.md#getters--setters)<br>[NPM Setup](wiki/npm.md) |

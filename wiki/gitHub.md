@@ -55,7 +55,12 @@ git commit -m 'Comment'
 git push origin main
 ```
 
-### Remove
+### Reset before Commit
+```
+git reset <folder_file>
+```
+
+### Remove after Commit
 By single file or folder
 ```
 git rm <folder_file>
