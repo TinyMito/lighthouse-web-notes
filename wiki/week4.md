@@ -37,6 +37,60 @@ Two main reasons to use getters and setters:
 
 See more [here](oop.md#getters--setters)...
 
+## OOP Best Practices
+- Reduce duplicated code (reusability)
+- Breaking code up into sensibly-divided units (modularity)
+
+### Abstraction
+Abstraction is a technique for arranging complexity of computer systems. It works by establishing a level of complexity on which a person interacts with the system, suppressing the more complex details below the current level.
+
+### Private Properties
+Add an `_` underscore prefix at least we know this property is private and cannot be access from outside directly.
+```javascript
+this._property.push(item);
+```
+
+### Single Responsibility Principle
+Object has to be broken up into more objects that all just do one thing. If something need to change in code, it will not affect the all the objects in Task class.
+
+###### Before
+```javascript
+// Manage the state of a task
+class Task {
+  complete() {
+    // Mark this task as complete
+  }
+  sendNotification() {
+    // Send a notification to the user that their task is complete
+  }
+  saveToDatabase() {
+    // Save this task to the database
+  }
+}
+```
+
+###### After
+```javascript
+// Manage the state of a task
+class Task {
+  complete() {
+    // Mark this task as complete
+  }
+}
+
+class NotificationManager {
+  sendNotification(task) {
+    // Send a notification to the user that their task is complete
+  }
+}
+
+class DatabaseManager {
+  saveToDatabase(task) {
+    // Save this task to the database
+  }
+}
+```
+
 ## Quiz Notes
 
 ##### When should you use the super keyword?
