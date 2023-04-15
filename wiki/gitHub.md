@@ -21,8 +21,8 @@ More information [here](https://docs.github.com/en/authentication/connecting-to-
 
 ### Set Author for Commit
 ```
-git config --global user.email 'k.ip@me.com'
-git config --global user.name 'TinyMito'
+git config --global user.email 'your_email@example.com'
+git config --global user.name 'user_name'
 git config --global --list
 ```
 
