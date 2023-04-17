@@ -30,10 +30,13 @@ git config --global user.name 'user_name'
 ```
 git init
 git remote add origin <git_ssh_url>
+git branch -M main
+```
+Misc
+```
 git config --global push.default current
 git branch --set-upstream-to=origin/main main
 ```
-
 #### List current configuration
 ```
 git config --list
