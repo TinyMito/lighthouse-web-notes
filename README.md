@@ -1,7 +1,7 @@
 # Kevin's Notes
 
 ## Summary 
-This repository contains all of the notes taken by [Kevin](wiki/https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
+This repository contains all of the notes taken by [Kevin](https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
 
 ## Table of Content
 | Module | Week | Wiki |
