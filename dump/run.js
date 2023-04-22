@@ -1,12 +1,9 @@
-const myFn = function() {
-  console.log("I am function.");
+try {
+  const fs = require('fs');
+
+  const data = fs.readFileSync('samples.txt', 'utf-8');
+  console.log('Data: ', data);
+} catch (error) {
+  console.log(error);
 }
-
-myFn.someAttribute = 42;
-console.log(myFn.someAttribute);
-
-function runner(f) {
-  f();
-}
-
-runner(myFn);
+console.log('Next Function');

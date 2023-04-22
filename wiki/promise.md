@@ -1,0 +1,6 @@
+# Promise
+### Example
+
+```javascript
+
+```
