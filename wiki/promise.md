@@ -35,6 +35,7 @@ fetchMyIP()
 
 ```
 
+Output:
 ```sh
 <isp_name> <city> <country>
 { //return of fetchISSFlyOverTimes JSON }
