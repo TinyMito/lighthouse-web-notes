@@ -34,3 +34,8 @@ fetchMyIP()
   .catch(error => console.log(error));
 
 ```
+
+```sh
+<isp_name> <city> <country>
+{ //return of fetchISSFlyOverTimes JSON }
+```
