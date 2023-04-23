@@ -1,5 +1,5 @@
 # Promise
-### Example
+### Using `request-promise-native`
 
 ```javascript
 const request = require('request-promise-native');
@@ -39,4 +39,21 @@ Output:
 ```sh
 <isp_name> <city> <country>
 { //return of fetchISSFlyOverTimes JSON }
+```
+
+### Using Promise()
+```javascript
+const myFunction = function(num) {
+  return new Promise((resolve, reject) => {
+
+  });
+};
+
+myFunction(150)
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(`\t-> Error: ${err}!`);
+  });
 ```
