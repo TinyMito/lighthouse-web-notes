@@ -1,5 +1,5 @@
 # Promise
-### Using `request-promise-native`
+### Using "request-promise-native"
 
 ```javascript
 const request = require('request-promise-native');
@@ -41,7 +41,7 @@ Output:
 { //return of fetchISSFlyOverTimes JSON }
 ```
 
-### Using Promise()
+### Using "Promise()"
 ```javascript
 const myFunction = function(num) {
   return new Promise((resolve, reject) => {
