@@ -1,5 +1,5 @@
 # Net
-## Server
+### Server
 ~working in progress~
 
 ```javascript
@@ -13,7 +13,7 @@ const server = net.createServer((socket) => {
 server.listen(3000);
 ```
 
-## Client
+### Client
 ~working in progress~
 ```javascript
 const net = require('net');
