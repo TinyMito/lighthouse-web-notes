@@ -1,6 +1,6 @@
 # Week 5 Notes
 ## Promise
-The `Promise()` is a built-in function to handle async callback in a more readable format. 
+The `Promise()` is a built-in function to handle async callback in a more readable format. The `resolve()` and `reject()` can only run once. The `.catch` not just get call by `reject()` but also get called if the function bug / error out.
 
 ### There are four stages in creating Promises:
 
