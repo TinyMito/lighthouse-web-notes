@@ -2,6 +2,20 @@
 ## Promise
 The `Promise()` is a built-in function to handle async callback in a more readable format. 
 
+### There are four stages in creating Promises:
+
+1. Wrapping (syntax, or the Promise structure)
+2. Thening (when it works)
+3. Catching (recovery, when there's an error)
+4. Chaining (where you create long sequences of asynchronous work)
+
+### And, there are four states of a Promise:
+
+1. Fulfilled (it worked!)
+2. Rejected (failed)
+3. Pending (still waiting...)
+4. Settled (something happened)
+
 [Example](promise.md)
 
 ## Net
