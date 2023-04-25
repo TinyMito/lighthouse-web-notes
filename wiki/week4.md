@@ -12,7 +12,7 @@ setTimeout(function() {
   // Code here
 }, 1000);
 ```
-See more [here](function.md#delays)...
+[Example](function.md#delays)
 
 ### Asynchronous Functions
 How asynchronous functions might be used include:
@@ -21,21 +21,21 @@ How asynchronous functions might be used include:
 - Connecting to a chat server
 - Anything that takes time and where we want users to know that the code is still running, like showing a basic loading animation
 
-See more [here](asynchronous.md)...
+[Example](asynchronous.md)
 
 ## Object Oriented Javascript
 ### Super
 - Overriding methods in subclasses to change their behaviour. Sometimes this is all you need, but other times we end up repeating some things in the overriding methods. That brings us to point 2 below.
 - Using `super` in the overriding methods in order to avoid repeating code that's already present in the superclass.
 
-See more [here](oop.md#inheritance)...
+[Example](oop.md#inheritance)
 
 ### Getters and Setters
 Two main reasons to use getters and setters:
 - Validating data before assigning it to a property
 - Computing a value on the fly instead of simply pulling it out of a property
 
-See more [here](oop.md#getters--setters)...
+[Example](oop.md#getters--setters)
 
 ## OOP Best Practices
 - Reduce duplicated code (reusability)

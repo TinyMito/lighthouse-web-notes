@@ -2,7 +2,7 @@
 ## Mocha & Chai
 When it comes to unit testing in Javascript, there are a number of tools that make it easy to understand and implement! In this reading, we will go over how we can use the `mocha` and `chai` packages to write automated tests for Javascript.
 
-See [here](unitTesting.md) for setting up `mocha` & `chai` testing.
+[Example](unitTesting.md) for setting up `mocha` & `chai` testing.
 
 ### BDD
 *BDD* or *Behavior Driven Development* is a process that emerged from test-driven development in 2006. The topic of BDD covers the entire life cycle of the app development process, from planning the project to writing the code.
@@ -22,7 +22,7 @@ Automated testing is the practice of writing code to programmatically test the a
 What is a "happy path" test? "Happy path" tests are very useful, because they catch the most critical bugs, but are definitely not sufficient for building reliable and robust applications.
 
 ## Recursion
-Please see [more](recursion.md) here...
+[Example](recursion.md)
 
 ## Object Oriented Javascript
 **Object Orientation**, commonly abbreviated "OO", is probably the biggest concept in software development philosophy of the last thirty years. Some of the most popular languages today like Ruby, Java, and C# have been designed mainly for **Object Oriented Programming**, or "OOP". But what is Object Orientation?
@@ -33,7 +33,7 @@ Please see [more](recursion.md) here...
 - JavaScript is not strictly OO in the way that Java or Ruby are
 - Functional Programming is an alternative paradigm, and one that JavaScript also encourages
 
-Please see [example](oop.md) of the OOP.
+[Example](oop.md)
 
 ### Classes & Instances
 In OOP, *classes* are blueprints (templates) that we use to create instances of objects. See [example](oop.md#class).
@@ -42,4 +42,5 @@ In OOP, *classes* are blueprints (templates) that we use to create instances of 
 
 ### Inheritance
 Reduce the need of duplicated codes.
-See [example](oop.md#inheritance).
+
+[Example](oop.md#inheritance)

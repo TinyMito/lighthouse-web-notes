@@ -2,46 +2,19 @@
 ## Promise
 The `Promise()` is a built-in function to handle async callback in a more readable format. 
 
-Example of Async Callback Hell.
-```javascript
-asyncFunc1(function(result1) {
-  asyncFunc2(result1, function(result2) {
-    asyncFunc3(result2, function(result3) {
-      asyncFunc4(result3, function(result4) {
-        // Do something with result4
-      });
-    });
-  });
-});
-```
+[Example](promise.md)
 
-Example after using Promise() in place.
-```javascript
-asyncFunc1()
-  .then(function(result1) {
-    return asyncFunc2(result1);
-  })
-  .then(function(result2) {
-    return asyncFunc3(result2);
-  })
-  .then(function(result3) {
-    return asyncFunc4(result3);
-  })
-  .then(function(result4) {
-    // Do something with result4
-  })
-  .catch(function(error) {
-    // Handle errors
-  });
-```
+## Net
+[Example](net.md)
 
-The `.then` will run if the there are no error in the Promise() scope and if there is an error the `.catch` will be triggered.
+## API - Application Programming Interface
+An API is a set of protocols, routines, and tools that specifies how software components should interact with each other. It defines the way in which different software systems and components can communicate with each other, and it provides a standardized interface for different applications to exchange data and services.
 
+In the context of web development, an API typically refers to a set of web-based endpoints that allow external applications to communicate with a web server or web application. These endpoints can be used to perform various operations, such as retrieving data, submitting data, or triggering specific actions on the server.
 
-Please see more [here](promise.md)...
+APIs can be used for a variety of purposes, such as integrating different applications or services, automating workflows, or building new applications on top of existing systems. They are a crucial component of modern software development, as they allow developers to build more flexible and scalable applications that can interact with a variety of other systems and services.
 
-### [Net](net.md)
+[Example](api.md)
 
-### [API](api.md)
-
-### [JSON](json.md)
+## JSON
+[Example](json.md)

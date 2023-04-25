@@ -1,4 +1,4 @@
-# Week 3 Notes
+# Week 0 Notes
 ### Section
 
 ```javascript
