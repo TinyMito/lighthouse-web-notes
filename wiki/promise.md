@@ -1,6 +1,28 @@
 # Promise
-### Using "request-promise-native"
+### Using "Promise()"
+```javascript
+const myFunction = function(num) {
+  return new Promise((resolve, reject) => {
+    if(num === 1) {
+      resolve('Return something');
+    } else {
+      reject('With error message')
+    };
+  });
+};
 
+myFunction(150)
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.log(`\t-> Error: ${err}!`);
+  });
+```
+
+## Alternative
+### Using "request-promise-native"
+This is a third party library promise function to make it simple to use with API handling.
 ```javascript
 const request = require('request-promise-native');
 
@@ -41,19 +63,3 @@ Output:
 { //return of fetchISSFlyOverTimes JSON }
 ```
 
-### Using "Promise()"
-```javascript
-const myFunction = function(num) {
-  return new Promise((resolve, reject) => {
-
-  });
-};
-
-myFunction(150)
-  .then((result) => {
-    console.log(result);
-  })
-  .catch((err) => {
-    console.log(`\t-> Error: ${err}!`);
-  });
-```
