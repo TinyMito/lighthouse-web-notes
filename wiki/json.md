@@ -1,8 +1,5 @@
 # JSON
-## Working with JSON
--working in progress-
 
-## Examples
 ### JSON contain object only
 ```javascript
 let jsonString = '{"key1":"Cat","key2":"Dog"}';
