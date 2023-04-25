@@ -1,6 +1,6 @@
 # Net
 ### Server
-~working in progress~
+-working in progress-
 
 ```javascript
 const net = require('net');
@@ -14,7 +14,7 @@ server.listen(3000);
 ```
 
 ### Client
-~working in progress~
+-working in progress-
 ```javascript
 const net = require('net');
 
