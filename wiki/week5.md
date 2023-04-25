@@ -40,44 +40,8 @@ The `.then` will run if the there are no error in the Promise() scope and if the
 
 Please see more [here](promise.md)...
 
-## Working with a JS server
+### [Net](net.md)
 
-```javascript
-const net = require('net');
+### [API](api.md)
 
-const server = net.createServer((socket) => {
-  socket.write('Hello, client!\r\n');
-  socket.end();
-});
-
-server.listen(3000);
-```
-
-```javascript
-const net = require('net');
-
-const HOST = '127.0.0.1';
-const PORT = 3000;
-
-const client = new net.Socket();
-
-client.connect(PORT, HOST, () => {
-  console.log('Connected to server');
-  client.write('Hello, server!\r\n');
-});
-
-client.on('data', (data) => {
-  console.log(`Received data: ${data}`);
-  client.destroy();
-});
-
-client.on('close', () => {
-  console.log('Connection closed');
-});
-```
-
-
-## Working with API
-
-## Working with JSON
-
+### [JSON](json.md)
