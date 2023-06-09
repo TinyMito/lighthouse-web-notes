@@ -24,6 +24,3 @@ This repository contains all of the notes taken by [Kevin](https://github.com/Ti
 | Compare Arrays with Nested Array | [Snippet](wiki/recursion.md#recursion-with-arrays) |
 | Compare Objects with Nested Objects | [Snippet](wiki/recursion.md#recursion-with-objects) |
 | Compare Objects with Nested Mixed | ... |
-
-## Notes to check with Mentors
-- Recursive in for loop.
