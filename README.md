@@ -1,4 +1,4 @@
-# Kevin's Notes
+### No longer updating this repo, migrated over to Obsidian offline.
 
 ## Summary 
 This repository contains all of the notes taken by [Kevin](https://github.com/TinyMito) for the Lighthouse Labs Web Development Bootcamp.
